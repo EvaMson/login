@@ -1,2 +1,2 @@
 # login
-Practical work for admission to the course
+Assignment for admission to the course
