@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #0F8AA3;
+  font-family: 'Comfortaa';
+}
+
+.box {
+  width: 300px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #69D9F0;
+  text-align: center;
+}
+
+.box h1 {
+  color: white;
+  text-transform: uppercase;
+}
+
+.box input{
+  font: 12pt 'Comfortaa';
+  font-weight: 400;
+}
+
+.box input[type="email"],
+.box input[type="password"] {
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 0;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.box input[type="email"]:focus,
+.box input[type="password"]:focus {
+  width: 220px;
+}
+
+.box input[type="submit"] {
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  background: #F01873;
+  border: 0;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+.box input[type="submit"]:hover {
+  width: 220px;
+  padding: 16px;
+}
+
+.box input[type="email"]:valid,
+.box input[type="password"]:valid {
+  background: rgba(44, 255, 200, 0.8);
+}
+
+
+.box input[type="email"]:invalid,
+.box input[type="password"]:invalid {
+  background: rgba(240, 223, 67, 0.8);
+}
+
+.box input[type="email"]:invalid:not(:focus):invalid,
+.box input[type="password"]:invalid:not(:focus):invalid {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.requiroments {
+  font-size: 8pt;
+  color: #555;
+}
