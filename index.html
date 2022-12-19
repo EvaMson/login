@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <title>LogIn</title>
+  </head>
+  <body>
+    <form class="box" action="index.html" method="get">
+      <h1>Войти в систему</h1>
+      <div class="">
+        <input required type="email" pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" placeholder="Логин">
+      </div>
+      <div class="">
+        <input required type="password" minlength="6" maxlength="20" placeholder="Пароль">
+      </div>
+      <div class="">
+        <input type="submit" value="Войти">
+      </div>
+    </form>
+  </body>
+</html>
